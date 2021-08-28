@@ -1,5 +1,7 @@
-#cription
-* Return: int will be returned
+#include<stdio.h>
+/**
+ * main - This is a description
+ * Return: int will be returned
  */
 int main()
 {
@@ -9,7 +11,6 @@ int main()
   long long int longlongint;
   double doubleType;
   char charType;
-
 
   printf("Size of char: %zu byte\n", sizeof(charType));
   printf("Size of int: %zu bytes\n", sizeof(intType));
