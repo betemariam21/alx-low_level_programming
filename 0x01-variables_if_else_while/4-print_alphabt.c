@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char be='a' ;
+char be = 'a';
 char bee = '\n';
 
 for (be = 'a'; be <= 'z'; be++)
