@@ -15,7 +15,7 @@ int main(void)
     {
       putchar(be);
     }
-  for(beta = 'A'; beta <= 'Z'; beta++ )
+  for (beta = 'A'; beta <= 'Z'; beta++)
     putchar(beta);
 
   putchar(bee);
