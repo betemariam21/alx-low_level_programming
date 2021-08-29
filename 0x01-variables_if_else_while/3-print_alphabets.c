@@ -7,17 +7,16 @@
  */
 int main(void)
 {
-  char be = 'a';
-  char bee = '\n';
-  char beta = 'A';
+char be = 'a';
+char bee = '\n';
+char beta = 'A';
 
-  for (be = 'a'; be <= 'z'; be++)
-    {
-      putchar(be);
-    }
-  for (beta = 'A'; beta <= 'Z'; beta++)
-    putchar(beta);
-
-  putchar(bee);
-  return (0);
+for (be = 'a'; be <= 'z'; be++)
+{
+putchar(be);
+}
+for (beta = 'A'; beta <= 'Z'; beta++)
+putchar(beta);
+putchar(bee);
+return (0);
 }
