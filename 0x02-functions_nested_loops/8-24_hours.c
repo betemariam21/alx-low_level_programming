@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_last_digit - print the last digit of a number
- * @n: int type number
- * Return: return value of last digit
+ * jack_bauer - print the last digit of a number
+ * 
+ * Return: void
  */
 void jack_bauer(void)
 {
