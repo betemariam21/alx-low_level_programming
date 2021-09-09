@@ -1,0 +1,18 @@
+#include "main.h"
+#include <stdio.h>
+void table(){
+  int count;
+  int be;
+
+  for(be=0;be<=9;be++ ){
+
+    for(count=0;count<=9;count++)
+      {
+	int result;
+	result = be*count;
+	printf("%d, ",result);
+      }
+    printf("\n");
+  }
+
+}
