@@ -3,7 +3,7 @@
  * print_sign - check the code
  *
  * Return: int.
- * @c: First operand
+ * @n: First operand
  */
 int print_sign(int n)
 {
