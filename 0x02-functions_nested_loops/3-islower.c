@@ -3,7 +3,7 @@
  * _islower - check the code
  *
  * Return: int.
- * c : int value c
+ * @c: First operand
  */
 int _islower(int c)
 {
