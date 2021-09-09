@@ -2,7 +2,6 @@
 #include <stdio.h>
 /**
  * jack_bauer - print the last digit of a number
- * 
  * Return: void
  */
 void jack_bauer(void)
