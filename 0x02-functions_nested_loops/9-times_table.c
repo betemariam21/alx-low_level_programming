@@ -8,11 +8,15 @@ void times_table(){
 
     for(count=0;count<=9;count++)
       {
-	int result;
-	result = be*count;
-	printf("%d, ",result);
+	int result = be*count;
+	printf("%d",result);
+	if(count<9)
+	  {
+	    printf(", ");
+	  }
       }
     printf("\n");
   }
 
 }
+
