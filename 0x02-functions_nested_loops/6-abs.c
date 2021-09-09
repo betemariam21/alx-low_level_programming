@@ -3,6 +3,7 @@
  *  _abs - check the code
  *
  * Return: int.
+ * @n: arg.
  */
 int _abs(int n)
 {
