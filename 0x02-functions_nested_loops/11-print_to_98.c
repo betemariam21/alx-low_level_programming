@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_to_98 - check the code
- * @n - arg1
+ * @n: arg1
  *
  * Return: Always 0.
  */
