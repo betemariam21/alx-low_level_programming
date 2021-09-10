@@ -1,24 +1,32 @@
 #include "main.h"
-#include <stdio.h>
-void times_table(){
-  int count;
-  int be;
+void times_table(void)
+{
+  int i, j, res;
 
-  for(be=0;be<=9;be++ ){
-
-    for(count=0;count<=9;count++)
-      {
-	int result = be*count;
-	printf("%2d",result);
-	if(count<9)
-	  {
-	    printf(", ");
-	  }
-      }
-    if(be<9){
-      printf("\n");
+  for (i = 0; i <= 9; i++)
+    {
+      for (j = 0; j <= 9; j++)
+	{
+	  res = (i * j);
+	  if (j != 0)
+	    {
+	      _putchar(',');
+	      _putchar(' ');
+	    }
+	  if (res >= 10)
+	    {
+	      _putchar((res / 10) + '0');
+	      _putchar((res % 10) + '0');
+	    }
+	  else if (res < 10 && j != 0)
+	    {
+	      _putchar(' ');
+	      _putchar((res % 10) + '0');
+	    }
+	  else
+	    _putchar((res % 10) + '0');
+	}
+      _putchar('\n');
     }
-  }
-
 }
 
