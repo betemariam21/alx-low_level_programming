@@ -5,8 +5,8 @@
  * @b - arg 2
  * Return: Always 0.
  */
-
-int add(int a, int b){
+int add(int a, int b)
+{
 int result;
 
 result = a + b;
