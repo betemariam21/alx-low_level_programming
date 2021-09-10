@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * add - check the code
- * @a - arg 1
- * @b - arg 2
+ * @a: First operand
+ * @b: Second operand
+ *
  * Return: Always 0.
  */
 int add(int a, int b)
@@ -10,5 +11,5 @@ int add(int a, int b)
 int result;
 
 result = a + b;
-return result;
+return (result);
 }
