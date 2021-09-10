@@ -1,9 +1,8 @@
 #include "main.h"
 
 int add(int a, int b){
-  int result;
+int result;
 
-  result = a + b;
-  return result;
-
+result = a + b;
+return result;
 }
