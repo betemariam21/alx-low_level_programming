@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * times_table - print the last digit of a number
+ * Return: void
+ */
 void times_table(void)
 {
 int i, j, res;
