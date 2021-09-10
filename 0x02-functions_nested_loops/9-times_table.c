@@ -15,7 +15,9 @@ void times_table(){
 	    printf(", ");
 	  }
       }
-    printf("\n");
+    if(be<9){
+      printf("\n");
+    }
   }
 
 }
