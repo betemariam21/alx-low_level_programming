@@ -11,6 +11,10 @@ int main(void)
 
   i = 0;
   positive_or_negative(i);
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> a1bcc959a1bcec48e3456ef90c2b7744f3c34101
   return (0);
 }
