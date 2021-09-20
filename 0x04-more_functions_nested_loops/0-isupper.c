@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * main - prints _putchar
- *
+ *  _isupper - prints _putchar
+ *  @c : arg 1
  * Return: always(0)
  */
+
 int _isupper(int c) 
 {
 if(c >= 65 && c <= 90 )
