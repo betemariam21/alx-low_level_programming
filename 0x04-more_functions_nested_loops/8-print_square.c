@@ -1,15 +1,15 @@
 #include "main.h"
 
-void print_line(int n)
+void print_square(int size)
 {
 int i,j;
 
 j=1;
-if (n > 0)
+if (size > 0)
 {
-while (j <= n)
+while (j <= size)
 {
-for(i = 1; i <= n; i++)
+for(i = 1; i <= size; i++)
 {
 _putchar('#');
 }
