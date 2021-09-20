@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+ * print_square - draw a diagonal line
+ * @size: number of times the '\' char is printed
+ * Description: Can only use _putchar to print
+ */
 void print_square(int size)
 {
 int i,j;
