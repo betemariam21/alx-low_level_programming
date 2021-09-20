@@ -8,7 +8,13 @@
  */
 int mul(int a, int b)
 {
+<<<<<<< HEAD
   int result = a * b;
 
   return result;
+=======
+int result = a * b;
+
+return (result);
+>>>>>>> 2190e611e30e9b36a71984b647a21fb47ab92b32
 }
