@@ -1,7 +1,12 @@
 #include <stdio.h>
-
-int main(void){
-int i,j;
+#include "main.h"
+int main(void)
+{
+fizz_buzz();
+return (0);
+}
+void fizz_buzz(void){
+    int i,j;
 for(i=1;i<101;i++)
 {
 if(i%3 == 0 && i%5 == 0)
