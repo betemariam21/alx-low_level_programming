@@ -442,8 +442,3 @@ julien@ubuntu:~/0x05$ ./100-atoi
 98
 402
 ```
-
-
-## Author
-
-- **Van Phan** - [vdphan](https://github.com/vdphan)
