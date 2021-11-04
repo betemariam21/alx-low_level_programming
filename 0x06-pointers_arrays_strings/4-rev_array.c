@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * reverse_array - a function that compare the string.
  * @a: array integer value
