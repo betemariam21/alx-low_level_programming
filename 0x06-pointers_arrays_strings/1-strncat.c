@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _strncat - concentrate two string with n byte.
  *@dest: character value.
