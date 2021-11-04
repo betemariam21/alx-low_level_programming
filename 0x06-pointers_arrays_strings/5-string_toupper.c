@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * string_toupper - change every string character to uppercase.
  *@s: string character value..
