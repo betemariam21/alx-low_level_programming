@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * leet - convert to leet.
  *@s: string character value..
