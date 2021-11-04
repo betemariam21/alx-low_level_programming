@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * primehelp - returns square root.
  *@n: integer value.
