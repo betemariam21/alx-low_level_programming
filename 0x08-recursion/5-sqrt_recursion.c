@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * _sqrthelp - returns square root.
 *@n: integer value.
